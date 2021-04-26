@@ -1,0 +1,314 @@
+﻿/* Please see documentati5n at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+.text-center{
+    height:70vh;
+    background-color:red;
+    margin-top:40px;
+    margin-bottom:-40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    box-shadow:inset 0 0 50px #000000;
+}
+.text-center h1{
+    color:#fff;
+
+}
+.text-center a:hover{
+    text-decoration:none;
+    color:#000000;
+    transform:scale(1.1);
+}
+.text-center h1:hover{
+    color:#000000;
+    font-weight:500;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .02);
+}
+
+/*style for pages*/
+h1 {
+    color: #1b6ec2;
+    margin: 30px 0;
+}
+
+.row-index {
+    background-color: #eee;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.row-index .col-md-6 {
+    height: 60px;
+}
+
+.row-index h3 {
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+.row-index a {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #000;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    margin-top: 30px;
+}
+
+.control-label {
+    padding-top: 15px;
+}
+
+.form-control {
+    width: 40%;
+    margin-top: 5px;
+}
+
+.search-btn {
+    padding-top: 5px;
+}
+
+.backbutton {
+    margin-top: 11px;
+}
+
+    .backbutton a {
+        background-color: gray;
+    }
+
+        .backbutton a:hover {
+            text-decoration: none;
+            background-color: dodgerblue;
+            cursor: pointer;
+        }
+
+.title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+    .title p {
+        margin-top: 50px;
+    }
+
+    .title a {
+        color: #fff;
+        background-color: green;
+        border-color: #1861ac;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .title a:hover {
+            text-decoration: none;
+            background-color: limegreen;
+            cursor: pointer;
+        }
+
+.table p {
+    text-align: center;
+}
+
+.main-table th {
+    background-color: blue;
+}
+
+.edit-button, .details-button, .delete-button {
+    width: 250px;
+    padding: 7px 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main-table td, th {
+    text-align: center;
+}
+
+.edit-button {
+    background-color: darkorange;
+    padding: 7px 45px;
+}
+
+.details-button {
+    background-color: midnightblue;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+    .edit-button:hover, .details-button:hover, .delete-button:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.edit-button:hover {
+    background-color: orange;
+}
+
+.details-button:hover {
+    background-color: darkslateblue;
+}
+
+.delete-button:hover {
+    background-color: indianred;
+}
+
+.create-title {
+    text-align: center;
+    color: dimgray;
+}
+
+    .create-title label {
+        color: #1b6ec2;
+        text-transform: capitalize;
+    }
+
+.row-create .col-md-12, .row-edit .col-md-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #eee;
+    padding: 30px 0 15px;
+}
+
+.row-create .create-form, .row-edit .edit-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row-create col-md-6, .row-edit .col-md-6 {
+    text-align: center;
+}
+
+.row-create .control-label, .row-edit .control-label {
+    width: 100px;
+}
+
+.row-create .btn-primary, .row-edit .btn-primary {
+    background-color: green;
+    margin-top: 30px;
+    border: solid 1px green;
+}
+
+.back-detail-btn, .edit-btn, .back-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+    .back-btn:hover, .edit-btn:hover, .back-detail-btn:hover {
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.edit-btn {
+    background-color: darkorange;
+}
+
+    .edit-btn:hover {
+        background-color: orange;
+    }
+
+.back-btn, .back-detail-btn {
+    background-color: darkslategray;
+    float: right;
+}
+
+    .back-btn:hover, .back-detail-btn:hover {
+        background-color: gray;
+    }
+
+.row-detail {
+    background-color: red;
+    padding: 30px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 130px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
