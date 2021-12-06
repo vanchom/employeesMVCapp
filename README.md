@@ -11,3 +11,7 @@
 ## Details page
 ![foto](https://user-images.githubusercontent.com/19565634/144865606-2b438cb2-0c8f-48d2-b67d-29ad4c2dbf37.png)
 
+## Edit page
+![foto](https://user-images.githubusercontent.com/19565634/144865919-ba190011-bc2e-4610-b8e0-37748f415197.png)
+
+
